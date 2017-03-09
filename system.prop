@@ -1,3 +1,10 @@
 #
 # system.prop for maad
 #
+# extracted from http://file.1glx.ir/glx/GLX_Maad_SW01_20160718.rar
+#
+ro.secret.code.engineer.mode=*#*#3646633#*#*
+ro.secret.code.midtest.auto=*#88*#
+ro.secret.code.midtest.handle=*#880*#
+ro.secret.code.hw.version=*#888*#
+ro.secret.code.pcb.value=*#999*#

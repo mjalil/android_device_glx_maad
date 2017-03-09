@@ -1,0 +1,3 @@
+add_lunch_combo cm_maad-user
+add_lunch_combo cm_maad-userdebug
+add_lunch_combo cm_maad-eng
