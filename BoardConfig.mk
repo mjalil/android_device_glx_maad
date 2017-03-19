@@ -7,7 +7,6 @@ TARGET_SYSTEM_PROP += device/glx/maad/system.prop
 
 # inherit from the proprietary version
 -include vendor/glx/maad/BoardConfigVendor.mk
--include vendor/glx/maad/maad-vendor.mk
 
 # kernel: remove architecture variables in favor of 'mt6735-common' board config
 TARGET_BOARD_SUFFIX := _64

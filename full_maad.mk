@@ -5,6 +5,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 PRODUCT_LOCALES := fa_IR $(PRODUCT_LOCALES)
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.timezone=Asia/Tehran
 
+# Init
+PRODUCT_COPY_FILES += \
+    device/glx/maad/root/fstab.mt6735:root/fstab.mt6735
+
 # Telephony
 SIM_COUNT := 2
 PRODUCT_PROPERTY_OVERRIDES += ro.telephony.sim.count=$(SIM_COUNT)

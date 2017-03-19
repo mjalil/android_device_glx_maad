@@ -1,9 +1,6 @@
 # Release name
 PRODUCT_RELEASE_NAME := maad
 
-# below line did not work!! so I include it in BoardConfig.mk
-#VENDOR_BLOBS := vendor/glx/maad/maad-vendor.mk
-
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
