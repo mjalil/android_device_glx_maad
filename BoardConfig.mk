@@ -31,6 +31,9 @@ BOARD_CACHEIMAGE_PARTITION_SIZE:=419430400
 # end
 BOARD_FLASH_BLOCK_SIZE := 131072
 
+# kernel build : override kernel source in device/cyanogen/mt6735-common/BoardConfigCommon.mk
+# to be removed
+TARGET_KERNEL_SOURCE :=
 TARGET_PREBUILT_KERNEL := device/glx/maad/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
